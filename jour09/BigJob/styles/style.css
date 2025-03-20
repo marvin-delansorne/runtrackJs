@@ -6,6 +6,7 @@ body{
     font-style: normal;
     background-image: url(../assets/background.png);
     background-size: cover;
+    background-repeat: no-repeat;
     font-weight: 500;
 }
 
@@ -47,7 +48,6 @@ li a:hover{
 .main_message{
     display: flex;
     flex-direction: column;
-    gap: 2;
     justify-content: center;
     align-items: center;
     margin-top: 200px;
@@ -58,5 +58,35 @@ li a:hover{
     margin-right: 20%;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
+.align-form {
+    display: grid;
+    place-items: center; 
+    height: 70vh; 
+    margin: 0; 
+    .btn {
+        margin: 10px; 
+        padding: 10px 20px; 
+        font-size: 16px; 
+      }
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    a{
+            text-decoration: none;
+            cursor: pointer;
+            translate: 0.2s;
+        
+    }
+  }
+
+
+ 
+  
